@@ -2,6 +2,9 @@
   "name": "auth-front",
   "dependencies": {
     "ember": "~2.8.0",
-    "ember-cli-shims": "0.1.1"
+    "ember-cli-shims": "0.1.1",
+    "underscore": "^1.8.3",
+    "bootstrap": "~3.3.5",
+    "toastr": "^2.1.3"
   }
 }

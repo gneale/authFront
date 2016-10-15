@@ -1,0 +1,13 @@
+{{#if errorMessage}}
+  <ul>
+    {{#each errorMessage as |error|}}
+      <li>
+        {{format-registration-errors error}}
+      </li>
+    {{/each}}
+  </ul>
+{{/if}}
+
+{{#each flashMessages.queue as |flash|}}
+  {{flash-message flash=flash}}
+{{/each}}
